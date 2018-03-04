@@ -1,0 +1,1 @@
+../../../Mangogo/Mangogo/Core/MGServiceResponse.h
