@@ -8,10 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		B6A2F2B01BB65147983F9CD6 /* libPods-LibrarySystem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B8F93C5CCB243E0CAFD204 /* libPods-LibrarySystem.a */; };
-		DEDE8135204BCC9B0051EF22 /* LSTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDE8134204BCC9B0051EF22 /* LSTabbarController.m */; };
-		DEDE8138204BCCE40051EF22 /* LSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDE8137204BCCE40051EF22 /* LSNavigationController.m */; };
-		DEDE813C204D0B410051EF22 /* LSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDE813A204D0B410051EF22 /* LSHomeViewController.m */; };
-		DEDE813D204D0B410051EF22 /* LSHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEDE813B204D0B410051EF22 /* LSHomeViewController.xib */; };
+		DEDE8149204D68750051EF22 /* LSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDE813F204D68750051EF22 /* LSNavigationController.m */; };
+		DEDE814A204D68750051EF22 /* LSTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDE8140204D68750051EF22 /* LSTabbarController.m */; };
+		DEDE814B204D68750051EF22 /* LSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDE8146204D68750051EF22 /* LSHomeViewController.m */; };
+		DEDE814C204D68750051EF22 /* LSHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEDE8147204D68750051EF22 /* LSHomeViewController.xib */; };
+		DEDE814F204D689A0051EF22 /* LSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDE814E204D689A0051EF22 /* LSBaseViewController.m */; };
+		DEDE8153204D68EE0051EF22 /* LSPropertyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDE8151204D68EE0051EF22 /* LSPropertyViewController.m */; };
+		DEDE8154204D68EE0051EF22 /* LSPropertyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEDE8152204D68EE0051EF22 /* LSPropertyViewController.xib */; };
+		DEDE8158204D69030051EF22 /* LSPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDE8156204D69030051EF22 /* LSPersonViewController.m */; };
+		DEDE8159204D69030051EF22 /* LSPersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEDE8157204D69030051EF22 /* LSPersonViewController.xib */; };
 		DEEC7C95202C17510044B065 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEC7C94202C17510044B065 /* AppDelegate.m */; };
 		DEEC7C98202C17510044B065 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEC7C97202C17510044B065 /* ViewController.m */; };
 		DEEC7C9D202C17510044B065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEEC7C9C202C17510044B065 /* Assets.xcassets */; };
@@ -22,13 +27,21 @@
 /* Begin PBXFileReference section */
 		5E9FDC0975FF924240595C57 /* Pods-LibrarySystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibrarySystem.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LibrarySystem/Pods-LibrarySystem.debug.xcconfig"; sourceTree = "<group>"; };
 		9F394AAEC6189EFEB16F4363 /* Pods-LibrarySystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibrarySystem.release.xcconfig"; path = "Pods/Target Support Files/Pods-LibrarySystem/Pods-LibrarySystem.release.xcconfig"; sourceTree = "<group>"; };
-		DEDE8133204BCC9B0051EF22 /* LSTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSTabbarController.h; sourceTree = "<group>"; };
-		DEDE8134204BCC9B0051EF22 /* LSTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSTabbarController.m; sourceTree = "<group>"; };
-		DEDE8136204BCCE40051EF22 /* LSNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSNavigationController.h; sourceTree = "<group>"; };
-		DEDE8137204BCCE40051EF22 /* LSNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSNavigationController.m; sourceTree = "<group>"; };
-		DEDE8139204D0B410051EF22 /* LSHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSHomeViewController.h; sourceTree = "<group>"; };
-		DEDE813A204D0B410051EF22 /* LSHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSHomeViewController.m; sourceTree = "<group>"; };
-		DEDE813B204D0B410051EF22 /* LSHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LSHomeViewController.xib; sourceTree = "<group>"; };
+		DEDE813F204D68750051EF22 /* LSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSNavigationController.m; sourceTree = "<group>"; };
+		DEDE8140204D68750051EF22 /* LSTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTabbarController.m; sourceTree = "<group>"; };
+		DEDE8141204D68750051EF22 /* LSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSNavigationController.h; sourceTree = "<group>"; };
+		DEDE8142204D68750051EF22 /* LSTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTabbarController.h; sourceTree = "<group>"; };
+		DEDE8146204D68750051EF22 /* LSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSHomeViewController.m; sourceTree = "<group>"; };
+		DEDE8147204D68750051EF22 /* LSHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSHomeViewController.xib; sourceTree = "<group>"; };
+		DEDE8148204D68750051EF22 /* LSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSHomeViewController.h; sourceTree = "<group>"; };
+		DEDE814D204D689A0051EF22 /* LSBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSBaseViewController.h; sourceTree = "<group>"; };
+		DEDE814E204D689A0051EF22 /* LSBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSBaseViewController.m; sourceTree = "<group>"; };
+		DEDE8150204D68EE0051EF22 /* LSPropertyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSPropertyViewController.h; sourceTree = "<group>"; };
+		DEDE8151204D68EE0051EF22 /* LSPropertyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSPropertyViewController.m; sourceTree = "<group>"; };
+		DEDE8152204D68EE0051EF22 /* LSPropertyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LSPropertyViewController.xib; sourceTree = "<group>"; };
+		DEDE8155204D69030051EF22 /* LSPersonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSPersonViewController.h; sourceTree = "<group>"; };
+		DEDE8156204D69030051EF22 /* LSPersonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSPersonViewController.m; sourceTree = "<group>"; };
+		DEDE8157204D69030051EF22 /* LSPersonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LSPersonViewController.xib; sourceTree = "<group>"; };
 		DEEC7C90202C17500044B065 /* LibrarySystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibrarySystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEEC7C93202C17500044B065 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DEEC7C94202C17510044B065 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +74,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DEDE813E204D68750051EF22 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				DEDE814D204D689A0051EF22 /* LSBaseViewController.h */,
+				DEDE814E204D689A0051EF22 /* LSBaseViewController.m */,
+				DEDE8141204D68750051EF22 /* LSNavigationController.h */,
+				DEDE813F204D68750051EF22 /* LSNavigationController.m */,
+				DEDE8142204D68750051EF22 /* LSTabbarController.h */,
+				DEDE8140204D68750051EF22 /* LSTabbarController.m */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		DEDE8143204D68750051EF22 /* property */ = {
+			isa = PBXGroup;
+			children = (
+				DEDE8150204D68EE0051EF22 /* LSPropertyViewController.h */,
+				DEDE8151204D68EE0051EF22 /* LSPropertyViewController.m */,
+				DEDE8152204D68EE0051EF22 /* LSPropertyViewController.xib */,
+			);
+			path = property;
+			sourceTree = "<group>";
+		};
+		DEDE8144204D68750051EF22 /* usercenter */ = {
+			isa = PBXGroup;
+			children = (
+				DEDE8155204D69030051EF22 /* LSPersonViewController.h */,
+				DEDE8156204D69030051EF22 /* LSPersonViewController.m */,
+				DEDE8157204D69030051EF22 /* LSPersonViewController.xib */,
+			);
+			path = usercenter;
+			sourceTree = "<group>";
+		};
+		DEDE8145204D68750051EF22 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				DEDE8148204D68750051EF22 /* LSHomeViewController.h */,
+				DEDE8146204D68750051EF22 /* LSHomeViewController.m */,
+				DEDE8147204D68750051EF22 /* LSHomeViewController.xib */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
 		DEEC7C87202C17500044B065 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +138,10 @@
 		DEEC7C92202C17500044B065 /* LibrarySystem */ = {
 			isa = PBXGroup;
 			children = (
+				DEDE813E204D68750051EF22 /* common */,
+				DEDE8145204D68750051EF22 /* home */,
+				DEDE8143204D68750051EF22 /* property */,
+				DEDE8144204D68750051EF22 /* usercenter */,
 				DEEC7C93202C17500044B065 /* AppDelegate.h */,
 				DEEC7C94202C17510044B065 /* AppDelegate.m */,
 				DEEC7C96202C17510044B065 /* ViewController.h */,
@@ -90,13 +150,6 @@
 				DEEC7C9E202C17510044B065 /* LaunchScreen.storyboard */,
 				DEEC7CA1202C17510044B065 /* Info.plist */,
 				DEEC7CA2202C17510044B065 /* main.m */,
-				DEDE8133204BCC9B0051EF22 /* LSTabbarController.h */,
-				DEDE8134204BCC9B0051EF22 /* LSTabbarController.m */,
-				DEDE8136204BCCE40051EF22 /* LSNavigationController.h */,
-				DEDE8137204BCCE40051EF22 /* LSNavigationController.m */,
-				DEDE8139204D0B410051EF22 /* LSHomeViewController.h */,
-				DEDE813A204D0B410051EF22 /* LSHomeViewController.m */,
-				DEDE813B204D0B410051EF22 /* LSHomeViewController.xib */,
 			);
 			path = LibrarySystem;
 			sourceTree = "<group>";
@@ -171,9 +224,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEDE8154204D68EE0051EF22 /* LSPropertyViewController.xib in Resources */,
 				DEEC7CA0202C17510044B065 /* LaunchScreen.storyboard in Resources */,
 				DEEC7C9D202C17510044B065 /* Assets.xcassets in Resources */,
-				DEDE813D204D0B410051EF22 /* LSHomeViewController.xib in Resources */,
+				DEDE814C204D68750051EF22 /* LSHomeViewController.xib in Resources */,
+				DEDE8159204D69030051EF22 /* LSPersonViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,11 +290,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEDE813C204D0B410051EF22 /* LSHomeViewController.m in Sources */,
+				DEDE8153204D68EE0051EF22 /* LSPropertyViewController.m in Sources */,
+				DEDE814B204D68750051EF22 /* LSHomeViewController.m in Sources */,
 				DEEC7C98202C17510044B065 /* ViewController.m in Sources */,
-				DEDE8138204BCCE40051EF22 /* LSNavigationController.m in Sources */,
+				DEDE814F204D689A0051EF22 /* LSBaseViewController.m in Sources */,
 				DEEC7CA3202C17510044B065 /* main.m in Sources */,
-				DEDE8135204BCC9B0051EF22 /* LSTabbarController.m in Sources */,
+				DEDE8149204D68750051EF22 /* LSNavigationController.m in Sources */,
+				DEDE8158204D69030051EF22 /* LSPersonViewController.m in Sources */,
+				DEDE814A204D68750051EF22 /* LSTabbarController.m in Sources */,
 				DEEC7C95202C17510044B065 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

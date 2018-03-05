@@ -9,6 +9,9 @@
 #import "LSTabbarController.h"
 #import "LSNavigationController.h"
 #import "LSHomeViewController.h"
+#import "LSPersonViewController.h"
+#import "LSPropertyViewController.h"
+
 
 @interface LSTabbarController ()
 
@@ -22,7 +25,16 @@
     
     LSHomeViewController *homeViewController = [[LSHomeViewController alloc] init];
     LSNavigationController *navigationController = [[LSNavigationController alloc]initWithRootViewController:homeViewController];
-    self.viewControllers = @[navigationController];
+    
+    LSPropertyViewController *propertyViewController = [[LSPropertyViewController alloc] init];
+    LSNavigationController *navigationController2 = [[LSNavigationController alloc]initWithRootViewController:propertyViewController];
+    
+//    LSHomeViewController *homeViewController = [[LSHomeViewController alloc] init];
+//    LSNavigationController *navigationController = [[LSNavigationController alloc]initWithRootViewController:homeViewController];
+    
+    LSPersonViewController *personViewController = [[LSPersonViewController alloc] init];
+    LSNavigationController *navigationController4 = [[LSNavigationController alloc]initWithRootViewController:personViewController];
+    self.viewControllers = @[navigationController,navigationController2,navigationController4];
     
 }
 
