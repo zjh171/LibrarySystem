@@ -10,6 +10,8 @@
 		B6A2F2B01BB65147983F9CD6 /* libPods-LibrarySystem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B8F93C5CCB243E0CAFD204 /* libPods-LibrarySystem.a */; };
 		DEDE8135204BCC9B0051EF22 /* LSTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDE8134204BCC9B0051EF22 /* LSTabbarController.m */; };
 		DEDE8138204BCCE40051EF22 /* LSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDE8137204BCCE40051EF22 /* LSNavigationController.m */; };
+		DEDE813C204D0B410051EF22 /* LSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDE813A204D0B410051EF22 /* LSHomeViewController.m */; };
+		DEDE813D204D0B410051EF22 /* LSHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEDE813B204D0B410051EF22 /* LSHomeViewController.xib */; };
 		DEEC7C95202C17510044B065 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEC7C94202C17510044B065 /* AppDelegate.m */; };
 		DEEC7C98202C17510044B065 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEC7C97202C17510044B065 /* ViewController.m */; };
 		DEEC7C9D202C17510044B065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEEC7C9C202C17510044B065 /* Assets.xcassets */; };
@@ -24,6 +26,9 @@
 		DEDE8134204BCC9B0051EF22 /* LSTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSTabbarController.m; sourceTree = "<group>"; };
 		DEDE8136204BCCE40051EF22 /* LSNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSNavigationController.h; sourceTree = "<group>"; };
 		DEDE8137204BCCE40051EF22 /* LSNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSNavigationController.m; sourceTree = "<group>"; };
+		DEDE8139204D0B410051EF22 /* LSHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSHomeViewController.h; sourceTree = "<group>"; };
+		DEDE813A204D0B410051EF22 /* LSHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSHomeViewController.m; sourceTree = "<group>"; };
+		DEDE813B204D0B410051EF22 /* LSHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LSHomeViewController.xib; sourceTree = "<group>"; };
 		DEEC7C90202C17500044B065 /* LibrarySystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibrarySystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEEC7C93202C17500044B065 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DEEC7C94202C17510044B065 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -89,6 +94,9 @@
 				DEDE8134204BCC9B0051EF22 /* LSTabbarController.m */,
 				DEDE8136204BCCE40051EF22 /* LSNavigationController.h */,
 				DEDE8137204BCCE40051EF22 /* LSNavigationController.m */,
+				DEDE8139204D0B410051EF22 /* LSHomeViewController.h */,
+				DEDE813A204D0B410051EF22 /* LSHomeViewController.m */,
+				DEDE813B204D0B410051EF22 /* LSHomeViewController.xib */,
 			);
 			path = LibrarySystem;
 			sourceTree = "<group>";
@@ -165,6 +173,7 @@
 			files = (
 				DEEC7CA0202C17510044B065 /* LaunchScreen.storyboard in Resources */,
 				DEEC7C9D202C17510044B065 /* Assets.xcassets in Resources */,
+				DEDE813D204D0B410051EF22 /* LSHomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEDE813C204D0B410051EF22 /* LSHomeViewController.m in Sources */,
 				DEEC7C98202C17510044B065 /* ViewController.m in Sources */,
 				DEDE8138204BCCE40051EF22 /* LSNavigationController.m in Sources */,
 				DEEC7CA3202C17510044B065 /* main.m in Sources */,

@@ -1,29 +1,22 @@
 //
-//  LSTabbarController.m
+//  LSHomeViewController.m
 //  LibrarySystem
 //
-//  Created by zhujinhui on 2018/3/4.
+//  Created by zhujinhui on 2018/3/5.
 //  Copyright © 2018年 kyson. All rights reserved.
 //
 
-#import "LSTabbarController.h"
-#import "LSNavigationController.h"
 #import "LSHomeViewController.h"
 
-@interface LSTabbarController ()
+@interface LSHomeViewController ()
 
 @end
 
-@implementation LSTabbarController
+@implementation LSHomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    
-    LSHomeViewController *homeViewController = [[LSHomeViewController alloc] init];
-    LSNavigationController *navigationController = [[LSNavigationController alloc]initWithRootViewController:homeViewController];
-    self.viewControllers = @[navigationController];
-    
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {
