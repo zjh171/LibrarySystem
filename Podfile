@@ -7,4 +7,9 @@ target "LibrarySystem" do
         pod 'Masonry','1.1.0' # DDUIStyle限制
         pod 'Google-Mobile-Ads-SDK'
         pod 'Mangogo'
+        pod 'React',:subspecs => [
+        'Core',
+        'ART',
+        'RCTNetwork'
+        ]
 end
